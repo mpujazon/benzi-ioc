@@ -4,13 +4,13 @@ var benzineries = [];
 var coordIOC = L.latLng([41.37478,2.168292]);
 var icones = {
     benzIcon : L.icon({
-        iconUrl: '../img/icona_benzineria.png',
+        iconUrl: './img/icona_benzineria.png',
         iconSize: [45, 45],
         iconAnchor: [19, 38],
         popupAnchor: [0, -38]
     }),
     iocIcon : L.icon({
-        iconUrl: '../img/ioc.png',
+        iconUrl: './img/ioc.png',
         iconSize: [38, 38],
         iconAnchor: [19, 38],
         popupAnchor: [0, -38]
